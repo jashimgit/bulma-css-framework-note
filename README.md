@@ -44,12 +44,17 @@
     **-6 = 3rem
 
 ##  Typography sizing 
-    <p class="is-size-1 has-text-center-mobile">size 1 for 3rem</p>
-    <p class="is-size-2">size 2 for 2.5rem</p>
+    <p class="is-size-1 has-text-centered-mobile">size 1 for 3rem</p>
+    <p class="is-size-2 has-text-primary">size 2 for 2.5rem</p>
     <p class="is-size-3">size 3 for 2rem</p>
     <p class="is-size-4">size 4 for 1.5rem</p>
     <p class="is-size-5">size 5 for 1.25rem</p>
     <p class="is-size-6">size 6 for 1rem</p>
     <p class="is-size-7">size 7 for 0.75rem</p>
 ## Alignment 
-        
+    has-text-centered, has-text-justified, has-text-left, has-text-right
+    you can also use media breakpoints as below:
+    has-text-centered-{ mobile | tablet | desktop | widescreen | fullhd }
+
+## Text transformation
+    is-capitalized | is-lowercase | is-uppercase | is-italic    
